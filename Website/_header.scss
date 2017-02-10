@@ -1,0 +1,57 @@
+$
+.header 
+{
+  width: 1100px;
+  margin: auto;
+}
+
+.header-links 
+{
+  width: 100%
+}
+
+.header-links ul
+{
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.header-links ul li
+{
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+.link-holder a
+{
+  text-decoration: none;
+  text-decoration: none;
+  color: #323e4e;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  line-height: 25px;
+}
+
+.link-holder a:hover
+{
+  color: #0096d2;
+}
+
+.link-holder 
+{
+  width: 100%;
+}
+
+.link-right 
+{
+  margin-left: auto;
+}
+
+.logo
+{
+  margin-top: 0px !important;
+  margin-left: 0px !important;
+}
