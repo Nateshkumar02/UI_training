@@ -1,0 +1,148 @@
+<html>
+
+<head>
+	<title>
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="validations.js"></script>
+</head>
+
+<body  class="parent">
+	<header>
+		<div class="header">
+			<div class="header-links ">
+				<ul class="link-holder">
+					<li class="logo">
+						<div>
+							<img src="appdirect_logo.png" width="30px" height="30px">
+						</div>
+					</li>
+					<li><a href="#">MyApps</a></li>
+					<li>
+						<a href="#">
+										Markeplace
+							</a>
+					</li>
+					<ul class="link-right">
+						<li>
+							<a href="#">
+									Account
+								</a>
+						</li>
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">
+									Natesh Kumar
+								</a>
+							<div class="dropdown-content" id="myDropdown">
+								<a href="#">My Profile</a>
+								<a href="#">My Settings</a>
+								<a href="#">Developer Mode</a>
+							</div>
+						</li>
+					</ul>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<!-- //placeholder="Your name" -->
+	<div class="main-content">
+		<div class="form-container">
+			<center>
+				<h1>Registration Form</h1></center>
+			<form name="myForm"  method="post" >
+				<ul class="form-content">
+					<li class="form-content--row">
+						<label>
+							First Name
+						</label>
+						<input type="text" name="first_name" class="form-control" id="first_name" onblur="CheckFirstname()">
+					</li>
+					<li class="form-content--row">
+						<label>
+							Last Name
+						</label>
+						<input type="text" name="last_name" class="form-control" id="last_name" >
+					</li>
+					<li class="form-content--row">
+						<label class="address">
+							Address(P)
+						</label>
+						<textarea name="addressp" id="addressp" class="form-control" onblur="CheckAddressp()">
+						</textarea>
+					</li>
+					<li class="form-content--row">
+					<div class="checkboxData">
+						<input type="checkbox" name="copy" id="checkbox" onchange="checkAddress(this)">
+						<label id="checkdata">check this box to copy the Address
+								 </label>
+					</div>
+					</li>
+					<li class="form-content--row">
+						<label>
+							Address(C)
+						</label>
+						<textarea name="addressc" id="addressc" class="form-control"  onblur="CheckAddressc()">
+						</textarea>
+					</li>
+					<li class="form-content--row">
+						<label>
+							Email-id
+						</label>
+						<input type="text" name="emailid" id="email" class="form-control" onblur="CheckEmail()">
+					</li>
+					<li class="form-content--row">
+						<label>
+							Mobile Number
+						</label>
+						<input type="text" name="phoneNo" id="phone" class="form-control" onblur="CheckPhone()">
+					</li>
+					<li class="form-content--row">
+						<label>
+							Password:
+						</label>
+						<input type="password" name="password" class="form-control" id="password" onselectstart="return false" onpaste="return false;" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off onblur="CheckPassword()">
+					</li>
+					<li class="form-content--row">
+						<label>Confirm Password:</label>
+						<input type="password" name="confirm_password"  id="confirmpassword" onblur="confirmpassword()">
+					</li>
+					<li class="form-content--row">
+						<input type="reset" name="reset" class="reset-button" onclick="reset()">
+						<input type="submit" name="register" id="registerid" onclick="createuser()" class="register-button">
+					</li>
+				</ul>
+				
+			</form>
+		</div>
+		<div class="output-container" id="output_id">
+			<center>
+				<h1>Dashboard</h1></center>
+		</div>
+	</div>
+	<br>
+	<footer>
+		<ul class="footer__primary__links">
+			<li>
+				<img src="appdirect_footer.png" width="20px" height="20px">
+			</li>
+			<li> <a href="#">Powered By AppDirect ©2009-2017</a></li>
+			<ul class="footer__primary__links__right">
+				<li>
+					<select class="optgroup">
+						<option value="english_us" class="optgroup">English (United States)</option>
+						<option value="english_uk" class="optgroup">English (UK)</option>
+						<option value="chinese" class="optgroup">Mandarin (China)</option>
+						<option value="hindi" class="optgroup">Hindi (India)</option>
+					</select>
+				</li>
+				<li><a href="#">Help Center</a></li>
+				<li><a href="#">Privacy policy</a></li>
+				<li><a href="#">Terms and Conditions</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</ul>
+	</footer>
+	<!-- 
+				  
+	</body>
+
