@@ -1,0 +1,223 @@
+.main-content {
+  display: flex;
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  // background-color:red;
+
+  .form-container {
+    width: 50%;
+    border:1px solid grey;
+
+   
+ // background-color:yellow;
+    .form-content {
+
+
+      &--row {
+        display: flex;
+        padding: 3%;
+        margin-left: 15%;
+        margin-right: 15%;
+
+        input, textarea {
+
+          margin-left: auto;
+
+        }
+        input{
+              height: 2rem;
+              width: 60%;
+              font-size: large;
+        }
+        textarea{
+          height: 4rem;
+          width: 60%;
+          font-size: small;
+        }
+       
+      }
+       .checkboxData{
+          display: flex;
+          margin-left: 24%;
+          margin-right: 30%;
+          font-size: small;
+          color: grey;
+          
+        }
+        .form-button{
+          display: flex;
+          justify-content: center;
+
+
+        
+        .reset-button{
+  background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.register-button{
+  background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+}
+        
+       
+         
+        
+      }
+    }
+  }
+
+  .output-container {
+    width: 40%;
+    margin-left: 8%;
+    border:1px solid grey;
+
+    #button143{
+    width:350px;
+    height: 50px;
+    
+  }
+  #button143:hover{
+    display: block;
+  }
+  }
+
+  
+}
+
+
+
+// .main-content{
+//   width: 1300px;
+//   margin-left: 50px;
+//   /*background-color: black;*/
+//   display: flex;
+
+// }
+// .form-section
+// {
+//   // background-image: url("background.jpg");
+//   margin-top: 20px;
+//   margin-left: 100px;
+//   width: 600px;
+//   height: 630;
+//   // border: 7px #1F2326;
+//   border-style: outset;
+//   font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
+//   /*background-color: gray;*/
+
+
+// &-links{
+//   margin: 20px 60px;
+//   padding-left: 0;
+//   font-size: large;
+//   list-style: none;
+// }
+// }
+//   .form-control{
+
+//     font-size: small;
+//     display: flex;
+//     justify-content: space-between;
+//     margin-bottom: 20px;
+// }
+//      .form-column{
+//     display: flex;
+//     justify-content: space-between;
+//     font-size: small;
+
+//   }
+
+
+// .reset-button{
+//   background-color: #4CAF50; 
+//     border: none;
+//     color: white;
+//     padding: 15px 32px;
+//     text-align: center;
+//     text-decoration: none;
+//     display: inline-block;
+//     font-size: 16px;
+// }
+// .register-button{
+//   background-color: #008CBA; /* Green */
+//     border: none;
+//     color: white;
+//     padding: 15px 32px;
+//     text-align: center;
+//     text-decoration: none;
+//     display: inline-block;
+//     font-size: 16px;
+//     margin-left: 10px;
+// }
+
+// .form-button{
+//   display: flex;
+//   justify-content: center;
+// }
+
+
+// .output{
+  
+//   margin-top: 20px;
+// margin-left: 100px;
+//   width: 350px;
+//   height: 630px;
+//   justify-content: space-between;
+//   // border: 10px solid black;
+//   border-style: outset;
+//  /* background-color: blue;*/
+// }
+
+
+
+// .form-section-box{
+//   margin-right: 10px;
+// }
+//  #button143{
+//     width:350px;
+//     height: 50px;
+//     background-color: white;
+//   }
+//   #button143:hover{
+//     display: block;
+//   }
+
+//   .checkboxcopy{
+//     font-size:small;
+//     font-family: "Open Sans", Arial, Helvetica, sans-serif;
+//   }
+
+ 
+
+//   .checkbox{
+//     font-size: small;
+//     font-weight: lighter;
+//     display: flex;
+//    justify-content: center;
+ 
+//   }
+
+//   textarea {
+//     resize: none;
+//     height: 75px;
+//     max-height: 75px;
+//     width: 100px;
+
+//     width: 194px;
+//     max-width: 194px;
+//   }

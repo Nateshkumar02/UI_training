@@ -1,0 +1,177 @@
+.parent {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif; }
+
+.header {
+  background-color: #1F2326;
+  margin: auto;
+  color: #ffffff; }
+  .header-links {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: small;
+    justify-content: space-between; }
+    .header-links ul {
+      display: flex;
+      list-style: none;
+      padding: 0px;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+
+.header-links ul li {
+  margin-top: 20px;
+  margin-left: 20px; }
+
+.link-holder a {
+  text-decoration: none;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  line-height: 25px; }
+
+.link-holder a:hover {
+  color: #0096d2; }
+
+.link-holder {
+  width: 1000px; }
+
+.link-right {
+  margin-left: auto; }
+
+.logo {
+  margin-bottom: 10px;
+  margin-left: 0px !important; }
+
+.link-right {
+  margin-left: auto;
+  margin-right: -102px; }
+
+.link-right ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; }
+
+.link-right ul li {
+  float: left; }
+
+.link-right ul li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none; }
+
+.link-right ul li a:hover, .dropdown:hover .dropbtn {
+  background-color: gray;
+  color: white; }
+
+.link-right ul li.dropdown {
+  display: inline-block; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left; }
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1; }
+
+.show {
+  display: block; }
+
+.main-content {
+  display: flex;
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right: 10%; }
+  .main-content .form-container {
+    width: 50%;
+    border: 1px solid grey; }
+    .main-content .form-container .form-content--row {
+      display: flex;
+      padding: 3%;
+      margin-left: 15%;
+      margin-right: 15%; }
+      .main-content .form-container .form-content--row input, .main-content .form-container .form-content--row textarea {
+        margin-left: auto; }
+      .main-content .form-container .form-content--row input {
+        height: 2rem;
+        width: 60%;
+        font-size: large; }
+      .main-content .form-container .form-content--row textarea {
+        height: 4rem;
+        width: 60%;
+        font-size: small; }
+    .main-content .form-container .form-content .checkboxData {
+      display: flex;
+      margin-left: 24%;
+      margin-right: 30%;
+      font-size: small;
+      color: grey; }
+    .main-content .form-container .form-content .form-button {
+      display: flex;
+      justify-content: center; }
+      .main-content .form-container .form-content .form-button .reset-button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px; }
+      .main-content .form-container .form-content .form-button .register-button {
+        background-color: #008CBA;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 10px; }
+  .main-content .output-container {
+    width: 40%;
+    margin-left: 8%;
+    border: 1px solid grey; }
+    .main-content .output-container #button143 {
+      width: 350px;
+      height: 50px; }
+    .main-content .output-container #button143:hover {
+      display: block; }
+
+.footer__primary__links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-top: 1px solid gray; }
+  .footer__primary__links__right {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: auto; }
+  .footer__primary__links li {
+    padding: 10px; }
+    .footer__primary__links li a {
+      color: black;
+      font-size: small;
+      text-decoration: none; }
+    .footer__primary__links li a:hover {
+      color: #0096d2; }
+
+/*# sourceMappingURL=style.css.map */
